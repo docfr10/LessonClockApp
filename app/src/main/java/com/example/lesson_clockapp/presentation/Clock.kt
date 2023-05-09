@@ -1,7 +1,6 @@
 package com.example.lesson_clockapp.presentation
 
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -50,7 +49,6 @@ fun Clock() {
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(16.dp)
-                    .background(Color.White, shape = MaterialTheme.shapes.medium)
                     .border(
                         BorderStroke(
                             width = 4.dp,
@@ -67,7 +65,7 @@ fun Clock() {
                     fontSize = 36.sp,
                     fontWeight = FontWeight.Bold,
                     textAlign = TextAlign.Center,
-                    color = Color.Black
+                    color = Color.White
                 )
             }
         }
